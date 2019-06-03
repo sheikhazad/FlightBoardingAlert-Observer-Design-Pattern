@@ -4,10 +4,12 @@
 #include "Subject.hpp"
 #include <vector>
 #include <memory>
+
 /**
  * A concrete implementation of the Observer DP Subject/Publisher interface
+ * BoardingStatus is final - No class will be derived from BoardingStatus
  */
-class BoardingStatus : public Subject
+class BoardingStatus final : public Subject
 {
 
 public:
