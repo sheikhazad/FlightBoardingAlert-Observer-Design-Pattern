@@ -4,10 +4,11 @@
 #include "Observer.hpp"
 #include <string>
 
-/**
+//**
  * Passenger that implements the Observer/Subscriber interface
+ * Passenger is final - No class will be derived from Passenger
  */
-class Passenger : public Observer {
+class Passenger final : public Observer {
 
 public:
 
