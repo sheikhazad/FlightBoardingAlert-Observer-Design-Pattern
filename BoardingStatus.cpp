@@ -8,7 +8,7 @@
 
 using namespace std;
 
-string sBoardingAlertMsg = ", \n\nBoarding is open, pls come to boarding area immediately. \n\nRegards, \nAA Airlines\n\n";
+const string sBoardingAlertMsg = ", \n\nBoarding is open, pls come to boarding area immediately. \n\nRegards, \nAA Airlines\n\n";
 
 //Register the passenger in the observer list
 void BoardingStatus::registerObserver(Observer *iPassenger) {
